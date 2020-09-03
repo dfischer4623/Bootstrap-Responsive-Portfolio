@@ -3,7 +3,7 @@
 .topnav {
     overflow: hidden;
     background-color: white;
-    position: relative;
+    position: sticky;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -51,4 +51,8 @@
     color: white;
     text-align: center;
     font-size: 15px;
+ }
+
+ .cardbody {
+   left: 30px;
  }

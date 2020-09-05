@@ -21,12 +21,21 @@
   }
 
   h3{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     vertical-align: middle;
     display: inline;
+    font-style: italic;
   }
   
+  h4{
+    font-size: 25px;
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+    font-style: italic;
+  }
+
   /* Style the hamburger menu */
   .topnav a.icon {
     background: white;

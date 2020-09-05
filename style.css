@@ -21,7 +21,7 @@
   }
 
   h3{
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     vertical-align: middle;
     display: inline;
@@ -40,7 +40,7 @@
   .topnav a.icon {
     background: white;
     display: block;
-    position: absolute;
+    position: right;
     right: 0;
     top: 0;
   }

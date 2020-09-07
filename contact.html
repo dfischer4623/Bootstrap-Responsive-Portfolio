@@ -48,12 +48,11 @@
               <!-- The content in this div gets wrapped in a card -->
               <div class="card">
                 <div class="card-body">
-                  <p><h4>My Portfolio shows sites using various technologies and techniques.
+                    <p><h4>Please use this form to contact me. I would love to discuss how I can help your organization.
                     <br><br>
-                    Please also visit my Contact page. 
-                    <br><br>
-                    I would love to discuss how I can help your organization.</h4>
-                  </p>
+                    After receiving your contact info, I will reply during usual business hours.
+                    <br>
+                    </h4></p>
                 </div>
               </div>
             </div>
@@ -67,27 +66,66 @@
   <body>
 
     <main>
+        <h5>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <img class="img img-thumbnail" src="image1.jpg" alt="project collaboration">
+            <div class="row">
+                <div class="col-lg-1">
+                    <br>
+                </div>
             </div>
-            <div class="col-lg-9">
-              <h2>html/css/bootstrap</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-11">
+                    <label> First Name : <input type="text" name="firstName" required="required"> </label>
+                    <label> Last Name : <input type="text" name="lastName" required="required"> </label>
+                    <label> Company Name : <input type="text" name="compName" required="required"> </label>
+                </div>
             </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-lg-3">
-              <img class="img img-thumbnail" src="image2.jpg" alt="project javascript">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-11">
+                    <label> Email Address : <input type="email" name="eMail" required="required"> </label>
+                    <label> Phone # : <input type="phone" name="phone" placeholder="(nnn)nnn-nnnn" required="required"> </label>
+                </div>  
+            </div>  
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-11">        
+            How would you like us to contact you? :
+                <label> Email : <input type="radio" name="radEP" value="E"> </label>
+                <label> Phone : <input type="radio" name="radEP" value="P"> </label>
+                <label> Both : <input type="radio" name="radEP" value="B"> </label>
+                </div>
             </div>
-            <div class="col-lg-9">
-              <h2>Node.js</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-11">
+                    If you would prefer a phone call, when is a good day/time to call? : 
+                    <label> <input type="text" name="dateTimeLocal"> </label>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-11">
+                    Question : <br>
+                    <textarea name="question" cols=100 rows=3 required="required"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                </div>
+                <div class="col-lg-7">
+                    <input class="btn btn-outline-secondary" type="submit" value="Submit">
+                    <input class="btn btn-outline-secondary" type="reset" value="Reset">
+                </div>
+            </div>
         </div>
+        </h5>
     </main> 
 
     <footer>

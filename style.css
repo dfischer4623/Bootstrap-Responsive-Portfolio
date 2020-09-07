@@ -1,5 +1,4 @@
 /* Style the navigation menu */
-
 .topnav {
     overflow: hidden;
     background-color: white;
@@ -49,6 +48,11 @@
   .topnav a:hover {
     background-color: lightgray;
     color: white;
+  }
+
+  .img {
+    height: 200px;
+    width: 200px;
   }
 
   .footer {

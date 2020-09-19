@@ -14,9 +14,9 @@ Here are some guidelines:
 
    * A navbar
 
-   * A responsive layout
+   * A responsive layout  
 
-   * Responsive images
+   * Responsive images  
 
 * The Bootstrap portfolio should minimize the use of media queries.
 
